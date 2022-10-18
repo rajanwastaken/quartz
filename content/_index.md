@@ -9,7 +9,7 @@ Seeking serendipity in code, craft & curiosity.
 Designing & engineering high-scale communities.  
 Meeting wonderful people along the way.  
   
-Currently, I'm building ConnexSci to make research accessible and open to funding in the public sector. On the side, I'm working at JEC Toronto (COO), ChoiceDAO (Core) and Cobweb (Researcher). Previously, I worked at Camp Social as a Software Engineer Intern.  
+Currently, I'm building ConnexSci to make research accessible and open to funding in the public sector. On the side, I'm working at JEC Toronto (COO), ChoiceDAO (Core) and Cobweb (Researcher). Previously, I worked at [Camp Social](https://www.camp.social/) as a Software Engineer Intern.  
   
 In my free time, I enjoy writing and spending time outdoors. I'm currently writing a novel, The Platonist, and playing competitive golf, tennis and long distance running.
 
