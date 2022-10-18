@@ -184,8 +184,8 @@ article {
     font-size: 2em;
   }
   
-  & > .meta {
-    margin: 0 0 1em 0;
+  & > .heading > .meta {
+    margin: 0.5rem 0 1em 0;
     opacity: 0.7;
   }
 
@@ -312,6 +312,7 @@ hr {
   display: flex;
   flex-direction: row;
   gap: 2em;
+  margin-top: 4rem;
 
   @media all and (max-width: 780px) {
     flex-direction: column;
