@@ -13,6 +13,6 @@ Currently, I'm building ConnexSci to make research accessible and open to fundin
   
 In my free time, I enjoy writing and spending time outdoors. I'm currently writing a novel, The Platonist, and playing competitive golf, tennis and long distance running.
 
-Do good work.
+Do good work. Enjoy the journey.
 
 > _People grow old only by deserting their ideals. Worry, doubt, self-distrust and fear; these are the long years that bow the head and turn the growing spirit back to dust.  Whatever the years, there is in every being the love of wonder, the undaunted challenge of events, the unfailing childlike appetite for what next, and the joy in the game of life._
