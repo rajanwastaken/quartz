@@ -37,8 +37,8 @@ other = "Dark Mode"
 [edit_source]
 other = "Edit Source"
 
-[interactive_graph]
-other = "Interactive Graph"
+# [interactive_graph]
+# other = "Interactive Graph"
 
 [search]
 other = "Search"
@@ -60,6 +60,3 @@ other = "Search for something..."
 
 [toc]
 other = "Table of Contents"
-
-[copyright]
-other = "Made by {{ .name }} using <a href=\"https://github.com/jackyzha0/quartz\">Quartz</a>, © {{ .year }}"

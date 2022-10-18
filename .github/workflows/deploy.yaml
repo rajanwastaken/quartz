@@ -10,15 +10,12 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
       - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.18
+        uses: jackyzha0/hugo-obsidian@v2.1
         with:
-          index: true
-          input: content
-          output: assets/indices
+          input: content # input folder
+          output: data   # output folder
+          index: true    # whether to index content
           root: .
 
       - name: Setup Hugo

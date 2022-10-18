@@ -70,14 +70,14 @@ description:
 
 # title of the home page (also for SEO)
 page_title:
-  "🪴 Quartz 3.3"
+  "🌎 Rajan Agarwal"
 
 # links to show in the footer
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/rajanwastaken
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/rajanwastaken
 ```
 
 ### Code Block Titles

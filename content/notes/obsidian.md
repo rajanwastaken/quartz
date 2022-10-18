@@ -1,7 +1,7 @@
 ---
 title: "Obsidian Vault Integration"
 tags:
-- setup
+- graph
 weight: -3
 ---
 

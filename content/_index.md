@@ -1,27 +1,18 @@
 ---
 title: 🪴 Quartz 3.
-enableToc: false
+enableToc: true
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+![[notes/images/Pasted image 20221017202638.png]]
 
-1. Extremely fast natural-language [[notes/search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+Seeking serendipity in code, craft & curiosity.  
+Designing & engineering high-scale communities.  
+Meeting wonderful people along the way.  
+  
+Currently, I'm building ConnexSci to make research accessible and open to funding in the public sector. On the side, I'm working at JEC Toronto (COO), ChoiceDAO (Core) and Cobweb (Researcher). Previously, I worked at Camp Social as a Software Engineer Intern.  
+  
+In my free time, I enjoy writing and spending time outdoors. I'm currently writing a novel, The Platonist, and playing competitive golf, tennis and long distance running.
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+Do good work.
 
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
-
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
-
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
-
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
-
+> _People grow old only by deserting their ideals. Worry, doubt, self-distrust and fear; these are the long years that bow the head and turn the growing spirit back to dust.  Whatever the years, there is in every being the love of wonder, the undaunted challenge of events, the unfailing childlike appetite for what next, and the joy in the game of life._
