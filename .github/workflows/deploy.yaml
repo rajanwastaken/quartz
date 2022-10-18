@@ -7,15 +7,18 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.1
         with:
-          input: content # input folder
-          output: data   # output folder
-          index: true    # whether to index content
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Build Link Index
+        uses: jackyzha0/hugo-obsidian@v2.18
+        with:
+          index: true
+          input: content
+          output: assets/indices
           root: .
 
       - name: Setup Hugo
@@ -25,12 +28,18 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo
 
-      - name: Deploy
+      - name: Deploy on GitHub
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
           cname: rajanwastaken.github.io
+
+      - name: Deploy on fission.codes
+        uses: fission-suite/publish-action@v1
+        with:
+          machine_key: ${{ secrets.FISSION_MACHINE_KEY }}
+          build_dir: ./public

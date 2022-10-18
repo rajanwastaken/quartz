@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
-{{ partial "head.html" .}}
+{{ partial "head.html" . }}
 
 <body>
 {{partial "search.html" .}}
@@ -19,7 +19,7 @@
           {{ end }}
       </ul>
       {{partial "toc.html" .}}
-      {{partial "textprocessing.html" .}}
+      {{partial "textprocessing.html" . }}
     </article>
     {{partial "footer.html" .}}
 </div>
