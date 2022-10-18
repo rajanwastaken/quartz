@@ -8,11 +8,10 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Quartz supports two modes of searching through content.
-Full-text Full-text search is the default in Quartz. It produces results that exactly match the search query."
+    content=""
   />
   <title>
-    Search
+    graph
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -249,247 +248,31 @@ if (!doNotTrack) {
 
 
     <article>
-      <h1>Search</h1>
-      <p class="meta">
-        Last updated 
+        <h1>Tag: graph</h1>
+        
+        <ul class="section-ul"><li class="section-li">
+        <div class="section">
+            <p class="meta">
+                
 Oct 17, 2022
 
- 
-          
-<a href="https://github.com/jackyzha0/quartz/tree/hugo/content/notes/search.md" rel="noopener">Edit Source</a>
 
+            </p>
+            <div class="desc">
+              <h3><a href="https://quartz.jzhao.xyz/notes/obsidian/" class="internal-link" data-src="/notes/obsidian/">Obsidian Vault Integration</a></h3>
+            </div>
+            <div class="spacer"></div>
+            <ul class="tags">
+                
+                <li><a href="https://quartz.jzhao.xyz/tags/graph/">Graph</a></li>
+                
+            </ul>
+        </div>
+    </li></ul>
 
-      </p>
-      <ul class="tags">
-          
-      </ul>
-      
-
-<aside class="mainTOC">
-    <details >
-        <summary>Table of Contents</summary>
-        <nav id="TableOfContents">
-  <ol>
-    <li><a href="#full-text">Full-text</a></li>
-    <li><a href="#natural-language">Natural Language</a></li>
-  </ol>
-</nav>
-    </details>
-</aside>
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-  
-    
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
         
-        
-        
-      
-    
-  
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-<p>Quartz supports two modes of searching through content.</p>
-<a href="#full-text"><h2 id="full-text"><span class="hanchor" ariaLabel="Anchor"># </span>Full-text</h2></a>
-<p>Full-text search is the default in Quartz. It produces results that <em>exactly</em> match the search query. This is easier to setup but usually produces lower quality matches.</p>
-<div class="highlight" title="data/config.yaml"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># the default option</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">enableSemanticSearch</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><a href="#natural-language"><h2 id="natural-language"><span class="hanchor" ariaLabel="Anchor"># </span>Natural Language</h2></a>
-<p>Natural language search is powered by 
-
-<a href="https://operand.ai/" rel="noopener">Operand</a>. It understands language like a person does and finds results that best match user intent. In this sense, it is closer to how Google Search works.</p>
-<p>Natural language search tends to produce higher quality results than full-text search.</p>
-<p>Here&rsquo;s how to set it up.</p>
-<ol>
-<li>Create an Operand Account on 
-
-<a href="https://operand.ai/" rel="noopener">their website</a>.</li>
-<li>Go to Dashboard &gt; Settings &gt; Integrations.</li>
-<li>Follow the steps to setup the GitHub integration. Operand needs access to GitHub in order to index your digital garden properly!</li>
-<li>Head over to Dashboard &gt; Objects and press <code>(Cmd + K)</code> to open the omnibar and select &lsquo;Create Collection&rsquo;.
-<ol>
-<li>Set the &lsquo;Collection Label&rsquo; to something that will help you remember it.</li>
-<li>You can leave the &lsquo;Parent Collection&rsquo; field empty.</li>
-</ol>
-</li>
-<li>Click into your newly made Collection.
-<ol>
-<li>Press the &lsquo;share&rsquo; button that looks like three dots connected by lines.</li>
-<li>Set the &lsquo;Interface Type&rsquo; to <code>object-search</code> and click &lsquo;Create&rsquo;.</li>
-<li>This will bring you to a new page with a search bar. Ignore this for now.</li>
-</ol>
-</li>
-<li>Go back to Dashboard &gt; Settings &gt; API Keys and find your Quartz-specific Operand API key under &lsquo;Other keys&rsquo;.
-<ol>
-<li>Copy the key (which looks something like <code>0e733a7f-9b9c-48c6-9691-b54fa1c8b910</code>).</li>
-<li>Open <code>data/config.yaml</code>. Set <code>enableSemanticSearch</code> to <code>true</code> and <code>operandApiKey</code> to your copied key.</li>
-</ol>
-</li>
-</ol>
-<div class="highlight" title="data/config.yaml"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># the default option</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">enableSemanticSearch</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">operandApiKey</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0e733a7f-9b9c-48c6-9691-b54fa1c8b910&#34;</span><span class="w">
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><ol start="7">
-<li>Make a commit and push your changes to GitHub. See the <a href="/notes/hosting" rel="noopener" class="internal-link" data-src="/notes/hosting">hosting</a> page if you haven&rsquo;t done this already.
-<ol>
-<li>This step is <em>required</em> for Operand to be able to properly index your content.</li>
-<li>Head over to Dashboard &gt; Objects and select the collection that you made earlier</li>
-</ol>
-</li>
-<li>Press <code>(Cmd + K)</code> to open the omnibar again and select &lsquo;Create GitHub Repo&rsquo;
-<ol>
-<li>Set the &lsquo;Repository Label&rsquo; to <code>Quartz</code></li>
-<li>Set the &lsquo;Repository Owner&rsquo; to your GitHub username</li>
-<li>Set the &lsquo;Repository Ref&rsquo; to <code>master</code></li>
-<li>Set the &lsquo;Repository Name&rsquo; to the name of your repository (usually just <code>quartz</code> if you forked the repository without changing the name)</li>
-<li>Leave &lsquo;Root Path&rsquo; and &lsquo;Root URL&rsquo; empty</li>
-</ol>
-</li>
-<li>Wait for your repository to index and enjoy natural language search in Quartz! Operand refreshes the index every 2h so all you need to do is just push to GitHub to update the contents in the search.</li>
-</ol>
-
-
     </article>
     
-
-<hr/>
-
-
-<div class="page-end" id="footer">
-    <div class="backlinks-container">
-        <h3>Backlinks</h3>
-<ul class="backlinks">
-    
-    
-    
-    
-    
-    
-    
-    <li>
-      No backlinks found
-    </li>
-    
-</ul>
-
-    </div>
-    <div>
-        <script
-  src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
-  integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
-  crossorigin="anonymous"
-></script>
-<h3></h3>
-<div id="graph-container"></div>
-<style>
-  :root {
-    --g-node: var(--secondary);
-    --g-node-active: var(--primary);
-    --g-node-inactive: var(--visited);
-    --g-link: var(--outlinegray);
-    --g-link-active: #5a7282;
-  }
-</style>
-
-<script src="https://quartz.jzhao.xyz/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
-
-    </div>
-</div>
-
-
-
 
 
 
@@ -504,7 +287,6 @@ Oct 17, 2022
             <li><a href="https://twitter.com/_jzhao">Twitter</a></li><li><a href="https://github.com/jackyzha0">Github</a></li></ul>
     </footer>
 </div>
-
 
 </div>
 </body>
