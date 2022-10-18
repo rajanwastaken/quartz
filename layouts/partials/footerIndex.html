@@ -10,13 +10,24 @@
   {{else}}
       <hr/>
       <div class="page-end" id="footer">
-        <div class="backlinks-container">
-            {{partial "backlinks.html" .}}
-        </div>
+        <div class="delay t-3">
+          <h2>Recent Writing</h2>
+          {{$writing := where .Site.RegularPages "Section" "notes" }}
+              {{range first 3 $writing }}
+                  <div class="section">
+                      <div class="desc">
+                          <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+                      </div>
+                      <p class="meta">
+                      {{.WordCount}} words on {{partial "date-fmt.html" .}} 
+                      </p>
+                  </div>
+              {{end}}
+          <a href="/notes">See {{sub (len $writing) 3}} more →</a>
+      </div>
         <div>
             {{partial "graph.html" .}}
         </div>
-
       </div>
   {{end}}
 {{end}}
