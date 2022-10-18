@@ -18,7 +18,7 @@ jobs:
         with:
           index: true
           input: content
-          output: data
+          output: assets/indices
           root: .
 
       - name: Setup Hugo
@@ -28,7 +28,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo
+        run: hugo --minify
 
       - name: Deploy on GitHub
         uses: peaceiris/actions-gh-pages@v3
