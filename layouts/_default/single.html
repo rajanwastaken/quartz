@@ -17,7 +17,10 @@
           <li><a href="{{ .Permalink }}">{{ .LinkTitle | humanize }}</a></li>
           {{ end }}
         </ul>
-        {{partial "toc.html" .}} {{partial "textprocessing.html" . }}
+        <div style="display: flex; gap: 5%;">
+          <div style="flex-basis: 75%">{{partial "textprocessing.html" . }}</div>
+          <div>{{partial "toc.html" . }}</div>
+        </div>
       </article>
       {{partial "footer.html" .}}
     </div>

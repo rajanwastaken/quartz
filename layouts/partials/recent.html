@@ -1,12 +1,14 @@
-<div class="content-list" style="display: flex; gap: 6%">
-<div style="width: 47%">
+<div class="content-list">
+<div>
   <h2 style="color: #bdced9">Highlighted Projects</h2>
-  {{$writing := where .Site.RegularPages "Section" "posts" }}
-  {{partial "page-list.html" (first 3 $writing)}}
+  {{$writing := where .Site.RegularPages "Section" "projects" }}
+  <div>
+  {{partial "page-list.html" (first 10 $writing)}}
 </div>
-<div style="width: 47%">
-  <h2 style="color: #bdced9">Highlighted Projects</h2>
-  {{$writing := where .Site.RegularPages "Section" "posts" }}
+</div>
+<div style="width: 100%">
+  <h2 style="color: #bdced9">Recent Notes</h2>
+  {{$writing := where .Site.RegularPages "Section" "notes" }}
   {{partial "page-list.html" (first 3 $writing)}}
 </div>
 </div>

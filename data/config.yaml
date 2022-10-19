@@ -1,6 +1,6 @@
-name: Jacky Zhao
+name: Rajan Agarwal
 enableToc: true
-openToc: false
+openToc: true
 enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
@@ -14,9 +14,10 @@ enableGitHubEdit: false
 GitHubLink: https://github.com/rajanwastaken/quartz
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+favicon:
+  - { rel: "shortcut icon", href: "https://file.rajanagarwal.xyz/i-profile.jpg", type: "image/png" }
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  Rajan Agarwal is a 17 y/o software engineer based out of Toronto, Canada.
 page_title:
   "Rajan Agarwal"
 links:

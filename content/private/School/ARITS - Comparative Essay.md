@@ -4,7 +4,7 @@ title: "ARITS - Comparative Essay"
 
 #### Feminism
 Beneatha’s conviction to her modernized worldview highlights her unique brand of strength, perhaps also serving as an indirect expression of Hansberry’s own opinions. Walter’s status as a man parallels both his success as the “man” of the house and his ability to establish himself as an equal in his interactions with Lindner and others.
-- Beneatha's *mutilated *hair is a symbol of her culture; quickly stripped away due ot the consequences of the American Dream
+- Beneatha's *mutilated* hair is a symbol of her culture; quickly stripped away due ot the consequences of the American Dream
 - Beneatha is criticized in her atttempts to become a doctor and faces several challenges in her attempt to gain respect
 - Marrying a man with *loot* is the idealized scenario for Beneatha, as she is supposed to follow in her parents' footsteps
 - Power and authority is associated with being the *head of the house* and this role changes based on socioeconomic factors
@@ -14,6 +14,7 @@ Beneatha’s conviction to her modernized worldview highlights her unique brand 
 
 #### Racism / Oppression
 After moving to a house in an all-white neighbourhood, Hansberry’s family endured legal battles and physical threats not unlike the “bombs” that Walter, Ruth, and Mrs. Johnson reference in the play. Despite the suggestion by Karl Lindner that “race prejudice simply doesn't enter into” Clybourne Park’s offer to buy back the Youngers’ home, he hints at the very real dangers that accompany the family’s decision to relocate to a white neighbourhood.
+- 
 
 
 

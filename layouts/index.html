@@ -11,12 +11,13 @@
         <div style="flex-basis: 80%">{{partial "latest.html" .}}</div>
         <article>
           <br />
-          {{partial "toc.html" .}} {{partial "textprocessing.html" . }} {{if
-          $.Site.Data.config.enableRecentNotes}} {{partial "recent.html" . }} {{end}}
+          {{partial "toc.html" .}} {{partial "textprocessing.html" . }}
+          <del>
+            {{partial "contact.html" .}}
+          </del>
         </article>
       </div>
       {{partial "recent.html" .}}
-      {{partial "contact.html" .}}
       <br/>
       {{partial "footerIndex.html" .}}
     </div>
