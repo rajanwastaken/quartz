@@ -21,7 +21,7 @@ html {
 }
 
 .singlePage {
-  padding: 4em 30vw;
+  padding: 4em 20vw;
   @media all and (max-width: 1200px) {
     padding: 25px 5vw;
   }
@@ -312,7 +312,6 @@ hr {
   display: flex;
   flex-direction: row;
   gap: 2em;
-  margin-top: 4rem;
 
   @media all and (max-width: 780px) {
     flex-direction: column;
@@ -505,7 +504,7 @@ header {
 }
 
 .section-li {
-  margin-bottom: 1em;
+  margin-bottom: 0.2em;
 
   & > .section {
     display: flex;

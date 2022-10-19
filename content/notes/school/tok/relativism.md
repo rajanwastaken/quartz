@@ -22,3 +22,4 @@ Edison used his community of builders to design the best possible product; Tesla
 - How do we measure the potential of human beings?
 - 	Economic wealth
 - 	Ability to apply knowledge under stress
+

@@ -10,8 +10,8 @@ enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
-enableGitHubEdit: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+enableGitHubEdit: false
+GitHubLink: https://github.com/rajanwastaken/quartz
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
@@ -21,6 +21,6 @@ page_title:
   "Rajan Agarwal"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/rajanwastaken
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/rajanwastaken
