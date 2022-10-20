@@ -1,13 +1,13 @@
 <div class="content-list">
 <div>
-  <h2 style="color: #bdced9">Highlighted Projects</h2>
+  <h2 style="color: #859dad">Highlighted Projects</h2>
   {{$writing := where .Site.RegularPages "Section" "projects" }}
   <div>
   {{partial "page-list.html" (first 10 $writing)}}
 </div>
 </div>
 <div style="width: 100%">
-  <h2 style="color: #bdced9">Recent Notes</h2>
+  <h2 style="color: #859dad">Recent Notes</h2>
   {{$writing := where .Site.RegularPages "Section" "notes" }}
   {{partial "page-list.html" (first 3 $writing)}}
 </div>

@@ -2,7 +2,6 @@
 {{ if (and $.Site.Data.config.enableToc (ne .Params.enableToc false) $hasHeaders) }}
 <aside class="mainTOC">
     <details open>
-        <summary>Table of Contents</summary>
         {{ .TableOfContents }}
     </details>
 </aside>

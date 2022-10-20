@@ -19,11 +19,126 @@
   --secondary: #6b879a !important;
   --visited: #5b676d !important;
   --tertiary: #6f8a83 !important;
-  --primary: #619dd1 !important;
+  --primary: #6b879a !important;
   --gray: #d4d4d4 !important;
   --lightgray: #292633 !important;
   --outlinegray: #343434 !important;
 }
 
+#index {
+  & > .bio {
+    display: flex;
+    gap: 1.5em;
+    z-index: 1;
+    position: relative;
 
+    @media screen and (max-width: 1440px) {
+      flex-direction: column-reverse !important;
+      gap: 4em;
+    }
 
+    & > .writing-sidebar {
+      flex: 0 0 30%;
+
+      & > div {
+        margin-bottom: 2em;
+      }
+
+      & ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 0;
+        z-index: 0;
+      }
+
+      & > div > a {
+        opacity: 0.6;
+      }
+
+      & h2 {
+        font-size: 1.4rem;
+        margin: 0.75em 0;
+      }
+
+      & li {
+        margin-bottom: 0.8em;
+      }
+
+      & h3 {
+        margin: 0;
+      }
+
+      & .meta {
+        margin: 0.2em 0;
+      }
+
+      & .tags > li > a {
+        font-size: 0.9em;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.poem {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  padding: 0;
+  color: var(--gray);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.return-only {
+  display: none;
+}
+
+[visited="true"] .return-only {
+  display: inline;
+}
+
+[show-animation="true"] .delay {
+  animation: fadeIn ease 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  &.t-1 {
+    animation-delay: 0.5s;
+  }
+
+  &.t-2 {
+    animation-delay: 0.9s;
+  }
+
+  &.t-3 {
+    animation-delay: 2s;
+  }
+
+  &.t-4 {
+    animation-delay: 2.2s;
+  }
+
+  &.t-5 {
+    animation-delay: 2.4s;
+  }
+
+  @for $j from 1 through 5 {
+    @for $i from 1 through 10 {
+      &.stagger:nth-last-of-type(#{$j}) > *:nth-child(#{$i}) {
+        animation: fadeIn ease 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-delay: #{$i * 0.08 + 2.2}s;
+        z-index: #{-$i + 10 * ($j + 1)};
+        position: relative;
+      }
+    }
+  }
+}

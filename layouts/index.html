@@ -7,19 +7,23 @@
     <div class="singlePage">
       <!-- Begin actual content -->
       {{partial "header.html" .}}
-      <div style="display: flex">
+      <div>
+        <h1 class="big-header">
+          Rajan Agarwal is a software developer crafting, designing & engineering high-scale platforms. 
+        </h1>
+      </div>
+      <div style="display: flex" class="delay stagger">
         <div style="flex-basis: 80%">{{partial "latest.html" .}}</div>
         <article>
           <br />
           {{partial "toc.html" .}} {{partial "textprocessing.html" . }}
-          <del>
-            {{partial "contact.html" .}}
-          </del>
         </article>
       </div>
       {{partial "recent.html" .}}
-      <br/>
+
+      <br />
       {{partial "footerIndex.html" .}}
+      <del> {{partial "contact.html" .}} </del>
     </div>
   </body>
 </html>
