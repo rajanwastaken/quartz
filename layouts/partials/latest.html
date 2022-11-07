@@ -1,18 +1,18 @@
 {{if $.Site.Data.config.enableFooter}}
-      <div>
-        <div>
-          {{$writing := where .Site.RegularPages "Section" "posts" }}
-              {{range first 3 $writing }}
-                  <div class="section">
-                      <div class="desc">
-                          <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
-                      </div>
-                      <p class="meta" style="margin-top: 0.5rem">
-                      {{.WordCount}} words on {{partial "date-fmt.html" .}} 
-                      </p>
-                  </div>
-              {{end}}
-          <a href="/posts">See {{sub (len $writing) 3}} more →</a>
-                </div>
+<div>
+  <div>
+    <h3 style="color: var(--primary)">Latest Writings</h3>
+    {{$writing := where .Site.RegularPages "Section" "posts" }} {{range first 3 $writing }}
+    <div class="section">
+      <div class="desc">
+        <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
       </div>
+      <p class="meta" style="margin-top: 0.5rem">
+        {{.WordCount}} words on {{partial "date-fmt.html" .}}
+      </p>
+    </div>
+    {{end}}
+    <a href="/posts">See {{sub (len $writing) 3}} more →</a>
+  </div>
+</div>
 {{end}}

@@ -142,3 +142,16 @@
     }
   }
 }
+
+
+.flexible {
+  display: flex; 
+  gap: 50px;
+}
+
+@media (max-width: 800px) {
+  .flexible {
+    flex-direction: column;
+    gap: 0;
+  }
+}

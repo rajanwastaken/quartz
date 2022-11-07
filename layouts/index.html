@@ -12,12 +12,12 @@
           Rajan Agarwal is a software developer crafting, designing & engineering high-scale platforms. 
         </h1>
       </div>
-      <div style="display: flex" class="delay stagger">
-        <div style="flex-basis: 80%">{{partial "latest.html" .}}</div>
+      <div class="delay stagger flexible">
         <article>
           <br />
           {{partial "toc.html" .}} {{partial "textprocessing.html" . }}
         </article>
+        <div style="flex-basis: 80%">{{partial "latest.html" .}}</div>
       </div>
       {{partial "recent.html" .}}
 

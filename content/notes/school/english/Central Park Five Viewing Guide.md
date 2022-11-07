@@ -4,10 +4,11 @@ October 2022
 
 1. State the title of the film and the year it was released.  Then briefly describe what the film is about and the position that it advocates. 
 
-Central Park Five 
+Central Park Five — 2012
 
  2.  Describe the progression of the film: how it begins, what stages it passes through, and how it concludes.
 
+The film beings with a description of what happens to the girl; there are news clips of the women who died and the gruesome descriptions of how it happened. Here, the time period is introduced and clips of the young vigilantes are released. At the beginning, the film tries to humanize the events by building empathy in the viewer. The introduction of Raymond Santana, Kevin Richardson, Korey Wise and Yusef Salaam 
 
 3. List six facts described in the film that impressed you and explain how each fact relates to the film’s premise or theme. 
 
