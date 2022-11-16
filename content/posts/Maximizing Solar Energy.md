@@ -1,5 +1,5 @@
 ---
-title: "My Internship at Camp Social"
+title: "Maximizing Solar Energy"
 date: 2022-10-19
 tags:
 - work

@@ -6,10 +6,5 @@
   {{partial "page-list.html" (first 10 $writing)}}
 </div>
 </div>
-<div style="width: 100%">
-  <h2 style="color: #859dad">Recent Notes</h2>
-  {{$writing := where .Site.RegularPages "Section" "notes" }}
-  {{partial "page-list.html" (first 3 $writing)}}
-</div>
 </div>
 

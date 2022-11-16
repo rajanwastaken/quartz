@@ -2,7 +2,7 @@
 <div>
   <div>
     <h3 style="color: var(--primary)">Latest Writings</h3>
-    {{$writing := where .Site.RegularPages "Section" "posts" }} {{range first 3 $writing }}
+    {{$writing := where .Site.RegularPages "Section" "posts" }} {{range first 4 $writing }}
     <div class="section">
       <div class="desc">
         <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
@@ -12,7 +12,7 @@
       </p>
     </div>
     {{end}}
-    <a href="/posts">See {{sub (len $writing) 3}} more →</a>
+    <a href="/posts">See {{sub (len $writing) 4}} more →</a>
   </div>
 </div>
 {{end}}
