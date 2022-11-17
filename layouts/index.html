@@ -3,13 +3,13 @@
   {{ partial "head.html" . }}
 
   <body>
-    {{partial "search.html" .}}
+      {{partial "search.html" .}}
     <div class="singlePage" style="z-index: 99; filter: (--custom-filter)">
       <!-- Begin actual content -->
       <img
         style="
           position: fixed;
-          bottom: -35em;
+          bottom: -34em;
           right: -17em;
           filter: var(--custom-filter);
           z-index: -9;
@@ -35,7 +35,7 @@
         style="
           position: fixed;
           top: -17em;
-          left: -20em;
+          left: -15em;
           filter: var(--custom-filter);
           z-index: -9;
           width: 35vw;
@@ -55,15 +55,7 @@
         "
         src="https://www.publicdomainpictures.net/pictures/450000/nahled/vintage-clipart-planet-saturn.png"
       />
-      <div
-        class="x-mobile"
-        style="
-          position: fixed;
-          top: 1em;
-          right: 1em;
-          filter: invert(100%);
-        "
-      >
+      <div class="x-mobile" style="position: fixed; top: 1em; right: 1em; filter: invert(100%)">
         {{partial "headerIndex.html" .}}
       </div>
       <div class="only-mobile">{{partial "header.html" .}}</div>

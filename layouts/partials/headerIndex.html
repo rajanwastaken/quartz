@@ -28,5 +28,15 @@
     </svg>
   </div>
   <div style="width: 10px"></div>
-  {{partial "darkmode.html" .}}
+  <div
+    style="
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 0.3px solid rgba(255, 255, 255, 0.3);
+    "
+  >
+    {{partial "darkmode.html" .}}
+  </div>
 </header>
