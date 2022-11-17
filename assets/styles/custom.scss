@@ -11,6 +11,7 @@
   --lightgray: #f0f0f0;
   --outlinegray: #dadada;
   --million-progress-bar-color: var(--secondary);
+  --custom-filter: grayscale(100%) invert(100%) blur(7px);
 }
 
 [saved-theme="dark"] {
@@ -23,6 +24,7 @@
   --gray: #d4d4d4 !important;
   --lightgray: #292633 !important;
   --outlinegray: #343434 !important;
+  --custom-filter: grayscale(100%) blur(7px);
 }
 
 #index {
@@ -78,6 +80,16 @@
       }
     }
   }
+}
+
+.main-img {
+  position: absolute;
+  z-index: -9;
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.7;
 }
 
 .poem {
@@ -143,9 +155,8 @@
   }
 }
 
-
 .flexible {
-  display: flex; 
+  display: flex;
   gap: 50px;
 }
 

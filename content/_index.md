@@ -3,11 +3,9 @@ title: Rajan Agarwal.
 enableToc: true
 ---
 
-Seeking serendipity in code, craft & curiosity.  
-Designing & engineering high-scale communities.  
-Meeting wonderful people along the way.  
+I seek serendipity in code, craft & curiosity. My passion for software is rooted in his interest of building platforms and infrastructure that can be used by millions of people. I enjoy designing & engienering high scale platforms, while meeting wonderful people along the way. Currently, I'm building [[posts/Arterial]] to design better cities at scale.
 
-Currently, I'm building [[posts/Arterial]] to design better cities at scale. On the side, I'm independently researching [[posts/Community Interfaces|community interfaces]], [[posts/Maximizing Solar Energy|sustainable energy systems]] and [[posts/Evolutionary Game Theory|evolutionary game theory models]]. Previously, I've worked at [[posts/Camp Social]] to restore humanity on the internet and built [[projects/ConnexSci]] to materialize research in the drug discovery space.
+On the side, I'm independently researching [[posts/Community Interfaces|community interfaces]], [[posts/Maximizing Solar Energy|sustainable energy systems]] and [[posts/Evolutionary Game Theory|evolutionary game theory models]]. Previously, I've worked as a Software Engineer at [[posts/Camp Social]] to restore humanity on the internet and built [[projects/ConnexSci]] to materialize research in the drug discovery space.
 
 Within my community, I'm tackling [[posts/Food Insecurity]] within governments, enabling [[posts/Financial Literacy|financial literacy]] in youth and maximizing [[posts/Food Insecurity|community involvement]].
 

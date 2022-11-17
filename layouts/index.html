@@ -4,18 +4,19 @@
 
   <body>
     {{partial "search.html" .}}
-    <div class="singlePage">
+    <div class="singlePage" style="z-index: 99; filter: (--custom-filter);">
       <!-- Begin actual content -->
       <div style="position: fixed; top: 0; right: 1em">{{partial "headerIndex.html" .}}</div>
       <div>
         <h1 class="big-header">
-          Rajan Agarwal is a software developer crafting, designing & engineering high-scale platforms. 
+          Rajan Agarwal is a software developer crafting, designing & engineering high-scale
+          platforms.
         </h1>
       </div>
       <div class="delay stagger flexible">
-        <article>
+        <article style="font-size: 1.1em">
           <br />
-          {{partial "toc.html" .}} {{partial "textprocessing.html" . }}
+          {{partial "textprocessing.html" . }}
         </article>
         <div style="flex-basis: 80%">{{partial "latest.html" .}}</div>
       </div>
