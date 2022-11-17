@@ -4,13 +4,75 @@
 
   <body>
     {{partial "search.html" .}}
-    <div class="singlePage" style="z-index: 99; filter: (--custom-filter);">
+    <div class="singlePage" style="z-index: 99; filter: (--custom-filter)">
       <!-- Begin actual content -->
-      <div style="position: fixed; top: 0; right: 1em">{{partial "headerIndex.html" .}}</div>
+      <img
+        style="
+          position: fixed;
+          bottom: -35em;
+          right: -17em;
+          filter: var(--custom-filter);
+          z-index: -9;
+          width: 35vw;
+          height: auto;
+        "
+        src="https://www.publicdomainpictures.net/pictures/410000/nahled/vintage-globe-on-a-stand.png"
+      />
+      <img
+        style="
+          position: fixed;
+          top: -15em;
+          right: -17em;
+          transform: rotate(180deg);
+          filter: var(--custom-filter);
+          z-index: -9;
+          width: 35vw;
+          height: auto;
+        "
+        src="https://i.pinimg.com/originals/6c/35/3f/6c353fa86a80aa6be775f4f03403db0d.png"
+      />
+      <img
+        style="
+          position: fixed;
+          top: -17em;
+          left: -20em;
+          filter: var(--custom-filter);
+          z-index: -9;
+          width: 35vw;
+          height: auto;
+        "
+        src="https://toppng.com/public/uploads/thumbnail/black-and-white-typography-old-compass-rose-11563031407bgtztiwx98.png"
+      />
+      <img
+        style="
+          position: fixed;
+          bottom: -10em;
+          left: -20em;
+          filter: var(--custom-filter);
+          z-index: -9;
+          width: 40vw;
+          height: auto;
+        "
+        src="https://www.publicdomainpictures.net/pictures/450000/nahled/vintage-clipart-planet-saturn.png"
+      />
+      <div
+        class="x-mobile"
+        style="
+          position: fixed;
+          top: 1em;
+          right: 1em;
+          filter: invert(100%);
+        "
+      >
+        {{partial "headerIndex.html" .}}
+      </div>
+      <div class="only-mobile">{{partial "header.html" .}}</div>
       <div>
         <h1 class="big-header">
-          Rajan Agarwal is a software developer crafting, designing & engineering high-scale
-          platforms.
+          <span class="x-mobile"
+            >Rajan Agarwal is a software developer crafting, designing & engineering high-scale
+            platforms.</span
+          >
         </h1>
       </div>
       <div class="delay stagger flexible">
@@ -18,13 +80,11 @@
           <br />
           {{partial "textprocessing.html" . }}
         </article>
-        <div style="flex-basis: 80%">{{partial "latest.html" .}}</div>
+        <!--<div style="flex-basis: 80%">{{partial "latest.html" .}}</div>-->
       </div>
-      {{partial "recent.html" .}}
-
-      <br />
+      <!--{{partial "recent.html" .}} -->
       {{partial "footerIndex.html" .}}
-      <del> {{partial "contact.html" .}} </del>
+      <!--<del> {{partial "contact.html" .}} </del>-->
     </div>
   </body>
 </html>
