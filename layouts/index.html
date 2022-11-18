@@ -3,10 +3,11 @@
   {{ partial "head.html" . }}
 
   <body>
-      {{partial "search.html" .}}
-    <div class="singlePage" style="z-index: 99; filter: (--custom-filter)">
+    {{partial "search.html" .}}
+    <div class="singlePage delay" style="z-index: 99; filter: (--custom-filter)">
       <!-- Begin actual content -->
       <img
+        class="onload-img"
         style="
           position: fixed;
           bottom: -34em;
@@ -19,6 +20,7 @@
         src="https://www.publicdomainpictures.net/pictures/410000/nahled/vintage-globe-on-a-stand.png"
       />
       <img
+        class="onload-img"
         style="
           position: fixed;
           top: -15em;
@@ -32,6 +34,7 @@
         src="https://i.pinimg.com/originals/6c/35/3f/6c353fa86a80aa6be775f4f03403db0d.png"
       />
       <img
+        class="onload-img"
         style="
           position: fixed;
           top: -17em;
@@ -44,6 +47,7 @@
         src="https://toppng.com/public/uploads/thumbnail/black-and-white-typography-old-compass-rose-11563031407bgtztiwx98.png"
       />
       <img
+        class="onload-img"
         style="
           position: fixed;
           bottom: -10em;
@@ -55,26 +59,27 @@
         "
         src="https://www.publicdomainpictures.net/pictures/450000/nahled/vintage-clipart-planet-saturn.png"
       />
+
       <div class="x-mobile" style="position: fixed; top: 1em; right: 1em; filter: invert(100%)">
         {{partial "headerIndex.html" .}}
       </div>
       <div class="only-mobile">{{partial "header.html" .}}</div>
       <div>
         <h1 class="big-header">
-          <span class="x-mobile"
+          <span class="x-mobile t-1"
             >Rajan Agarwal is a software developer crafting, designing & engineering high-scale
             platforms.</span
           >
         </h1>
       </div>
-      <div class="delay stagger flexible">
-        <article style="font-size: 1.1em">
+      <div>
+        <article style="font-size: 1.1em" class="delay stagger t-1">
           <br />
           {{partial "textprocessing.html" . }}
         </article>
-        <!--<div style="flex-basis: 80%">{{partial "latest.html" .}}</div>-->
       </div>
-      <!--{{partial "recent.html" .}} -->
+      <!--{{partial "latest.html" .}}-->
+      <!--{{partial "recent.html" .}}-->
       {{partial "footerIndex.html" .}}
       <!--<del> {{partial "contact.html" .}} </del>-->
     </div>

@@ -12,6 +12,7 @@
   --outlinegray: #dadada;
   --million-progress-bar-color: var(--secondary);
   --custom-filter: blur(7px);
+  --custom-image-filter: bright-light 1s ease;
 }
 
 [saved-theme="dark"] {
@@ -25,6 +26,7 @@
   --lightgray: #292633 !important;
   --outlinegray: #343434 !important;
   --custom-filter: invert(100%) blur(5px);
+  --custom-image-filter: bright-dark 1s ease;
 }
 
 #index {
@@ -112,33 +114,29 @@
   display: none;
 }
 
-[visited="true"] .return-only {
-  display: inline;
-}
-
-[show-animation="true"] .delay {
+.delay {
   animation: fadeIn ease 0.5s;
   opacity: 0;
   animation-fill-mode: forwards;
 
   &.t-1 {
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
   }
 
   &.t-2 {
-    animation-delay: 0.9s;
+    animation-delay: 0.8s;
   }
 
   &.t-3 {
-    animation-delay: 2s;
+    animation-delay: 1.2s;
   }
 
   &.t-4 {
-    animation-delay: 2.2s;
+    animation-delay: 1.5s;
   }
 
   &.t-5 {
-    animation-delay: 2.4s;
+    animation-delay: 2s;
   }
 
   @for $j from 1 through 5 {
@@ -147,7 +145,7 @@
         animation: fadeIn ease 0.5s;
         opacity: 0;
         animation-fill-mode: forwards;
-        animation-delay: #{$i * 0.08 + 2.2}s;
+        animation-delay: #{$i * 0.08 + 0.2}s;
         z-index: #{-$i + 10 * ($j + 1)};
         position: relative;
       }
@@ -179,3 +177,38 @@
     display: grid;
   }
 }
+
+.onload-img {
+  animation: var(--custom-image-filter)
+}
+
+@keyframes bright-dark {
+  0% {
+    opacity: 0;
+    filter: brightness(1) blur(20px) invert(0%);
+  }
+  10% {
+    opacity: 1;
+    filter: brightness(2) blur(10px) invert(50%);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1) blur(5px) invert(100%);
+  }
+}
+
+@keyframes bright-light {
+  0% {
+    opacity: 0;
+    filter: brightness(1) blur(20px) invert(100%);
+  }
+  10% {
+    opacity: 1;
+    filter: brightness(2) blur(10px) invert(50%);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1) blur(7px) invert(0%);
+  }
+}
+
