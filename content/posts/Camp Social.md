@@ -1,6 +1,6 @@
 ---
-title: "Interning & Shipping at Camp Social"
-date: 2022-10-19
+title: "Interning at Camp Social"
+date: 2022-10-31
 tags:
 - work
 ---
