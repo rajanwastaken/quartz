@@ -8,30 +8,33 @@ enableGlobalGraph: false
 localGraph:
     enableLegend: false
     enableDrag: true
-    enableZoom: false
+    enableZoom: true
     depth: -1 # set to -1 to show full graph
     scale: 1
-    repelForce: 1
-    centerForce: 4
-    linkDistance: 0.6
-    fontSize: 0.4
-    opacityScale: 3
+    repelForce: 2
+    centerForce: 1
+    linkDistance: 0.4
+    fontSize: 0.7
+    opacityScale: 2
 
 ### Global Graph ###
 
 globalGraph:
-    enableLegend: true
+    enableLegend: false
     enableDrag: true
-    enableZoom: false
+    enableZoom: true
     depth: -1 # set to -1 to show full graph
-    scale: 1.2
+    scale: 1.4
     repelForce: 1
     centerForce: 1
-    linkDistance: 4
-    fontSize: 0.4
+    linkDistance: 1
+    fontSize: 0.5
     opacityScale: 3
 
 ### For all graphs ###
+
+paths:
+  - /moc: "#4388cc"
 
 paths:
   - /moc: "#4388cc"
