@@ -18,7 +18,7 @@ This year, for my school, I decided to get rid of the need for separate websites
 
 The primary issue with education is that it’s standardized—means for self-study are absolutely critical to turn weekly club lessons into meaningful interactions. Within my school, I experimented with productive tools that inevitably resulted in the production of a school-wide platform.
 
-Following my internship at [[camp social|Camp Social]] and work at [[hack club|Hack Club]], I felt comfortable designing and producing large-scale platforms. In the platform, similar to Slack or Snapshot, you can view all communities on the left hand side. The default page is a club directory. Within each page, there are customized repository views based on the club's themes and objectives. Individual organizations/clubs look like this:
+Following my internship at [[camp-social|Camp Social]] and work at [[hack club|Hack Club]], I felt comfortable designing and producing large-scale platforms. In the platform, similar to Slack or Snapshot, you can view all communities on the left hand side. The default page is a club directory. Within each page, there are customized repository views based on the club's themes and objectives. Individual organizations/clubs look like this:
 
 ![[images/Pasted image 20221117175415.png]]
 
