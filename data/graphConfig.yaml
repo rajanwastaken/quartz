@@ -9,11 +9,11 @@ localGraph:
     enableLegend: false
     enableDrag: true
     enableZoom: false
-    depth: 5 # set to -1 to show full graph
+    depth: 4 # set to -1 to show full graph
     scale: 1
     repelForce: 2
     centerForce: 2
-    linkDistance: 0.5
+    linkDistance: 0.6
     fontSize: 0.4
     opacityScale: 3
 
