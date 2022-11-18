@@ -9,7 +9,7 @@ localGraph:
     enableLegend: false
     enableDrag: true
     enableZoom: false
-    depth: 5 # set to -1 to show full graph
+    depth: -1 # set to -1 to show full graph
     scale: 1
     repelForce: 1
     centerForce: 4
