@@ -155,7 +155,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
   const nodeRadius = (d) => {
     const numOut = index.links[d.id]?.length || 0
     const numIn = index.backlinks[d.id]?.length || 0
-    return 3 + Math.random() * (5 + numOut + numIn)
+    return 1 + Math.random() * (3 + numOut + numIn)
   }
 
   // draw individual nodes
