@@ -7,7 +7,7 @@ tags:
 
 I seek serendipity in code, craft & curiosity. My passion for software is rooted in building [[posts/Projects|platforms and infrastructure]] that can be used by [[posts/hack club|millions of people]], while meeting wonderful people along the way. Currently, I'm building [[posts/Arterial]] to build better cities at scale.
 
-On the side, I'm independently researching [[posts/community interfaces|interfaces]], [[posts/Maximizing Solar Energy|sustainable energy systems]] and [[posts/Evolutionary Game Theory|evolutionary game theory models]]. Previously, I've worked as a Software Engineer at [[posts/camp social|Camp Social]] to rethink digital communities and built [[posts/ConnexSci]] to materialize early-stage research.
+On the side, I'm independently researching [[posts/thoughtful interfaces|interfaces]], [[posts/Maximizing Solar Energy|sustainable energy systems]] and [[posts/Evolutionary Game Theory|evolutionary game theory models]]. Previously, I've worked as a Software Engineer at [[posts/camp social|Camp Social]] to rethink digital communities and built [[posts/ConnexSci]] to materialize early-stage research.
 
 Within my community, I'm tackling [[posts/Food Insecurity|food insecurity]] within governments, enabling [[posts/Financial Literacy|financial literacy]] in youth and maximizing [[posts/Food Insecurity|community involvement]].
 
