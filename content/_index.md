@@ -15,6 +15,4 @@ Globally, I helped [[posts/ChoiceDAO|raise $20,000USD for reproductive access]],
 
 In my free time, I play and write [[posts/Sovereignty|music]], write [[posts/Poetry to Image Models|poetry]], take [[posts/Photography|photos]] and work on my novel, [[posts/The Platonist]].
 
-[[thoughts/Atomic Design]]
-
 Find me on [Twitter](https://twitter.com/rajanwastaken), [Github](https://github.com/rajanwastaken) or [Instagram](https://instagram.com/rajanwastaken).
