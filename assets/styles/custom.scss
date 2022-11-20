@@ -29,6 +29,20 @@
   --custom-image-filter: bright-dark 1s ease;
 }
 
+/*
+--light: #0b0b0c !important;
+  --dark: #fbfffe !important;
+  --secondary: #91855d !important;
+  --visited: #5b676d !important;
+  --tertiary: #665b37 !important;
+  --primary: #8c8469 !important;
+  --gray: #d4d4d4 !important;
+  --lightgray: #292633 !important;
+  --outlinegray: #343434 !important;
+  --custom-filter: invert(100%) blur(5px);
+  --custom-image-filter: bright-dark 1s ease;
+*/
+
 #index {
   & > .bio {
     display: flex;
