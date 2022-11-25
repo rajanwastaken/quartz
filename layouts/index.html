@@ -3,9 +3,9 @@
       data-wf-site="5e67b838d4474ac9d5a66d0c" data-wf-status="1">
   {{ partial "head.html" . }}
 
-  <body class="black">
+  <body class="black" style="background: black !important">
     {{partial "search.html" .}}
-    <div class="singlePage" style="z-index: 99; min-height: 60vh">
+    <div class="singlePage" style="z-index: 99; min-height: 60vh" >
     <!-- <img
         class="onload-img"
         style="
@@ -59,13 +59,17 @@
         "
         src="https://www.publicdomainpictures.net/pictures/450000/nahled/vintage-clipart-planet-saturn.png"
       />-->
+
+      <div class="x-mobile">
       {{ partial "exploreIndex.html" }}
-      <div class="indexPadding">
-      <div class="x-mobile" style="position: fixed; top: 1em; right: 1em; filter: invert(100%)">
+      </div>
+      <div style="position: fixed; top: 1em; right: 1em; filter: invert(100%)">
         {{partial "headerIndex.html" .}}
       </div>
+      <div class="only-mobile">
+      <div class="indexPadding">
       <div class="only-mobile">{{partial "header.html" .}}</div>
-      <div>
+      <div class="only-mobile">
         <h1 class="big-header">
           <span class="x-mobile t-1"
             >Rajan Agarwal is a software developer crafting, designing & engineering high-scale
@@ -73,17 +77,18 @@
           >
         </h1>
       </div>
-      <div>
+      <div class="only-mobile">
         <article style="font-size: 1.1em" class="delay stagger t-1">
           <br />
           {{partial "textprocessing.html" . }}
         </article>
-      </div>
       <!--{{partial "latest.html" .}}-->
       <!--{{partial "recent.html" .}}-->
       {{partial "footerIndex.html" .}}
       <!--<del> {{partial "contact.html" .}} </del>-->
+          </div>
     </div>
+        </div>
   </div>
   </body>
 </html>
