@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+{{ partial "head.html" . }}
+
+<body>
+<div class="singlePage">
+  {{partial "darkmode.html" .}}
+  <div class="centered">
+    <h1>404.</h1>
+    <h3>{{ i18n "404_message" }}</h3>
+    <br/>
+    <a href="{{ .Site.BaseURL }}">testing</a>
+  </div>
+</div>
+</body>
+</html>

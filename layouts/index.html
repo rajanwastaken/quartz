@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ .Lang }}">
+<html lang="{{ .Lang }}"  data-wf-page="5e67b838d4474a16c8a66d0d"
+      data-wf-site="5e67b838d4474ac9d5a66d0c" data-wf-status="1">
   {{ partial "head.html" . }}
 
-  <body>
+  <body class="black">
     {{partial "search.html" .}}
-    <div class="singlePage" style="z-index: 99;">
-      <!-- Begin actual content -->
-      <img
+    <div class="singlePage" style="z-index: 99; min-height: 60vh">
+    <!-- <img
         class="onload-img"
         style="
           position: fixed;
@@ -58,8 +58,9 @@
           height: auto;
         "
         src="https://www.publicdomainpictures.net/pictures/450000/nahled/vintage-clipart-planet-saturn.png"
-      />
-
+      />-->
+      {{ partial "exploreIndex.html" }}
+      <div class="indexPadding">
       <div class="x-mobile" style="position: fixed; top: 1em; right: 1em; filter: invert(100%)">
         {{partial "headerIndex.html" .}}
       </div>
@@ -83,5 +84,6 @@
       {{partial "footerIndex.html" .}}
       <!--<del> {{partial "contact.html" .}} </del>-->
     </div>
+  </div>
   </body>
 </html>

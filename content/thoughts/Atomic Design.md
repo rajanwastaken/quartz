@@ -3,5 +3,5 @@ title: "Atomic Design"
 tags:
 - design
 ---
-
-Atomic desgin!!
+  
+  Write a summary of atomic design in coding
