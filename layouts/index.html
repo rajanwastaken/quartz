@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ .Lang }}"  data-wf-page="5e67b838d4474a16c8a66d0d"
-      data-wf-site="5e67b838d4474ac9d5a66d0c" data-wf-status="1">
-  {{ partial "head.html" . }}
+<html lang="{{ .Lang }}">
+{{ partial "head.html" . }}
 
-  <body class="black" style="background: black !important">
-    {{partial "search.html" .}}
-    <div class="singlePage" style="z-index: 99; min-height: 60vh" >
-    <!-- <img
-        class="onload-img"
-        style="
+<body>
+{{partial "search.html" .}}
+<div class="singlePage" style="z-index: 99;">
+  <div>{{partial "header.html" .}}</div>
+  <!-- Begin actual content -->
+  <img
+    class="onload-img"
+    style="
           position: fixed;
           bottom: -34em;
           right: -17em;
@@ -17,11 +18,11 @@
           width: 35vw;
           height: auto;
         "
-        src="https://www.publicdomainpictures.net/pictures/410000/nahled/vintage-globe-on-a-stand.png"
-      />
-      <img
-        class="onload-img"
-        style="
+    src="https://www.publicdomainpictures.net/pictures/410000/nahled/vintage-globe-on-a-stand.png"
+  />
+  <img
+    class="onload-img"
+    style="
           position: fixed;
           top: -15em;
           right: -17em;
@@ -31,11 +32,11 @@
           width: 35vw;
           height: auto;
         "
-        src="https://i.pinimg.com/originals/6c/35/3f/6c353fa86a80aa6be775f4f03403db0d.png"
-      />
-      <img
-        class="onload-img"
-        style="
+    src="https://i.pinimg.com/originals/6c/35/3f/6c353fa86a80aa6be775f4f03403db0d.png"
+  />
+  <img
+    class="onload-img"
+    style="
           position: fixed;
           top: -17em;
           left: -15em;
@@ -44,11 +45,11 @@
           width: 35vw;
           height: auto;
         "
-        src="https://toppng.com/public/uploads/thumbnail/black-and-white-typography-old-compass-rose-11563031407bgtztiwx98.png"
-      />
-      <img
-        class="onload-img"
-        style="
+    src="https://toppng.com/public/uploads/thumbnail/black-and-white-typography-old-compass-rose-11563031407bgtztiwx98.png"
+  />
+  <img
+    class="onload-img"
+    style="
           position: fixed;
           bottom: -10em;
           left: -20em;
@@ -57,38 +58,18 @@
           width: 40vw;
           height: auto;
         "
-        src="https://www.publicdomainpictures.net/pictures/450000/nahled/vintage-clipart-planet-saturn.png"
-      />-->
-
-      <div class="x-mobile">
-      {{ partial "exploreIndex.html" }}
-      </div>
-      <div style="position: fixed; top: 1em; right: 1em; filter: invert(100%)">
-        {{partial "headerIndex.html" .}}
-      </div>
-      <div class="only-mobile">
-      <div class="indexPadding">
-      <div class="only-mobile">{{partial "header.html" .}}</div>
-      <div class="only-mobile">
-        <h1 class="big-header">
-          <span class="x-mobile t-1"
-            >Rajan Agarwal is a software developer crafting, designing & engineering high-scale
-            platforms.</span
-          >
-        </h1>
-      </div>
-      <div class="only-mobile">
-        <article style="font-size: 1.1em" class="delay stagger t-1">
-          <br />
-          {{partial "textprocessing.html" . }}
-        </article>
-      <!--{{partial "latest.html" .}}-->
-      <!--{{partial "recent.html" .}}-->
-      {{partial "footerIndex.html" .}}
-      <!--<del> {{partial "contact.html" .}} </del>-->
-          </div>
-    </div>
-        </div>
+    src="https://www.publicdomainpictures.net/pictures/450000/nahled/vintage-clipart-planet-saturn.png"
+  />
+  <div>
+    <article style="font-size: 110%" class="delay stagger t-1">
+      <br />
+      {{partial "textprocessing.html" . }}
+    </article>
   </div>
-  </body>
+  <!--{{partial "latest.html" .}}-->
+  <!--{{partial "recent.html" .}}-->
+  {{partial "footerIndex.html" .}}
+  <!--<del> {{partial "contact.html" .}} </del>-->
+</div>
+</body>
 </html>

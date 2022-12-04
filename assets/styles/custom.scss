@@ -1,20 +1,33 @@
 // Add your own CSS here!
 
 :root {
-  --light: #080808 !important;
+  --light: #faf8f8;
+  --dark: #141021;
+  --secondary: #284b63;
+  --tertiary: #84a59d;
+  --visited: #afbfc9;
+  --primary: #516090;
+  --gray: #4e4e4e;
+  --lightgray: #f0f0f0;
+  --outlinegray: #dadada;
+  --million-progress-bar-color: var(--secondary);
+  --custom-filter: blur(7px);
+  --custom-image-filter: bright-light 1s ease;
+}
+/*
+[saved-theme="dark"] {
+  --light: #05040a !important;
   --dark: #fbfffe !important;
-  --secondary: #8eb3cb !important;
+  --secondary: #8eb7d0ma !important;
   --visited: #5b676d !important;
   --tertiary: #6f8a83 !important;
   --primary: #6b879a !important;
   --gray: #d4d4d4 !important;
   --lightgray: #292633 !important;
   --outlinegray: #343434 !important;
-  --custom-filter: blur(5px);
+  --custom-filter: invert(100%) blur(5px);
   --custom-image-filter: bright-dark 1s ease;
 }
-
-/*
 --light: #0b0b0c !important;
   --dark: #fbfffe !important;
   --secondary: #91855d !important;
@@ -149,6 +162,23 @@
         position: relative;
       }
     }
+  }
+}
+
+.heading-object {
+  padding-right: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.heading-object:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .heading-object {
+    display: none;
   }
 }
 

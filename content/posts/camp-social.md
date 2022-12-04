@@ -24,7 +24,7 @@ This summer, I interned as a Software Engineer with the intention to restore hum
 **The infrastructure to allow community members to meet and connect with each other through shared social activities, online or offline.**
 - Employing [[thoughts/Atomic Design]] helped organize communities, broken down into individual events, each of which broken into user video conferences.
 - We wanted to recreate the feeling of being in camp; this theme was critical to isolating and interacting with features of the platform. 
-- We wanted to focus on making individuals feel valued and rewarded for their contributions. A common case study we drew from was [Project Aristotle](https://www.inc.com/justin-bariso/after-years-of-research-google-discovered-secret-weapon-to-building-a-great-team-its-a-lesson-in-emotional-intelligence.html)
+- We wanted to focus on making individuals feel valued and rewarded for their contributions. A common case study we drew from was [Project Aristotle](https://www.inc.com/justin-bariso/after-years-of-research-google-discovered-secret-weapon-to-building-a-great-team-its-a-lesson-in-emotional-intelligence.html), as well as the team-building I did at [[posts/hack club|Hack Club]].
 - One can host small group sessions or facilitations of larger groups which follows our workflow: *members can post any kind of activity they want to host, others can RSVP, and attendance is tracked and rewarded.*
 
 ![[images/Pasted image 20221117235533.png]]

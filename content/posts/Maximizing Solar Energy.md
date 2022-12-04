@@ -5,13 +5,4 @@ tags:
 - work
 ---
 
-### hie
-Wrapping up my Internship at Camp Social.
-
-## The Thing
-
-asdf
-
-### Of Course
-
-what
+I am researching how we can use chemical models to redesign solar consumption as a new paradigm of renewable energy. This page is currently in discussion. I'm more than happy to discuss this in detail with you, please reach out.

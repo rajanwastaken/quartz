@@ -5,3 +5,6 @@ tags:
 - community
 ---
 
+This page is under construction!
+
+TL;DR: I worked with ChoiceDAO and lead the fundraising and distribution of $20,000USD+ for organizations in this public domain.
